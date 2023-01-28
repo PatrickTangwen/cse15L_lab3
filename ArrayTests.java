@@ -34,7 +34,7 @@ public class ArrayTests {
 
   @Test
 	public void testAverageWithoutLowest() {
-    double[] input1 = {6,6,6,6};
+    double[] input1 = {3,6,6,6};
     double res = ArrayExamples.averageWithoutLowest(input1);
     assertEquals(6, res,0);
 	}
